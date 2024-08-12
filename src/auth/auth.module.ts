@@ -11,7 +11,7 @@ import { JwtStrategy } from './jwt.strategy';
     UsersModule, 
     PassportModule,
     JwtModule.register({
-      secret: 'your-secret-key',
+      secret: 'kamaytech',
       signOptions: { expiresIn: '60m' },
     }),
   ],
